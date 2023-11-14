@@ -1,0 +1,75 @@
+.myBooks {
+    position: absolute;
+    background-color: #444;
+    width: 300px;
+    height: 500px;
+    right: 20px;
+    top: 20px;
+    border-radius: 20px;
+    overflow-wrap: normal;
+}
+
+.Open{ 
+    position: absolute;
+    background-color: #444;
+    right: 20px;
+    top: 20px;
+    border-radius: 10px;
+    overflow-wrap: normal;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.myBooks > h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+.myBooks > span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.ListBook {
+position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 5px;
+  overflow-y: scroll;
+  height: 80%;
+  margin: 0;
+  padding-left:10px;
+}
+.ListBook::-webkit-scrollbar{
+    width: 5px;
+}
+
+.ListBook li {
+  width: 140px;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.ListBook li > img {
+  max-width: 140px;
+  max-height: 150px;
+}
+
+.ListBook li > button{
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    top: 0px;
+    right: 20px;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+}

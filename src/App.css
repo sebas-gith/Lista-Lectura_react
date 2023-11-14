@@ -1,0 +1,42 @@
+main {
+  border: 3px solid;
+  border-radius: 10px 10px 5px 3px ;
+  padding: 40px;
+  position: relative;
+  min-height: 710px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+label > * {
+  margin-top: 10px;
+}
+
+
+.Library {
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+
+}
+
+.Library li {
+  width: 50px;
+  cursor: pointer;
+  list-style: none
+}
+
+.Library li > img {
+  max-width: 150px;
+  max-height: 200px;
+}
+
